@@ -14,8 +14,8 @@
  *
  * <Add Extended Description Here>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Rishabh Gupta
+ * @date 21/11/23
  *
  */
 
@@ -36,8 +36,32 @@ void main() {
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
   /* Other Variable Declarations Go Here */
+  unsigned char minimum = 0;
+  unsigned char maximum = 0;
+  float mean = 0;
+  unsigned char median = 0;
   /* Statistics and Printing Functions Go Here */
 
 }
 
 /* Add other Implementation File Code Here */
+void print_statistics (unsigned char minimum, unsigned char maximum, float mean, unsigned char median){
+}
+
+void print_array (unsigned char *array, unsigned int counter){
+}
+
+unsigned char find_median (unsigned char *array, unsigned int counter){
+}
+
+float find_mean (unsigned char *array, unsigned int counter){
+}
+
+unsigned char find_maximum (unsigned char *array, unsigned int counter){
+}
+
+unsigned char find_minimum (unsigned char *array, unsigned int counter){
+}
+
+void sort_array (unsigned char *array, unsigned int counter){
+}
